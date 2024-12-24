@@ -1,4 +1,4 @@
-#AI Heroes Recipie project#
+AI Heroes Recipie project
 ---
 
 ### Steps to Run the Application
