@@ -1,4 +1,6 @@
-To run your application with the steps you provided, here's a clear and concise guide:
+Here's the updated guide with the additional step to add the OpenAI key:
+
+---
 
 ### Steps to Run the Application
 
@@ -11,7 +13,19 @@ To run your application with the steps you provided, here's a clear and concise 
      ```
    - This will start the backend services defined in the `docker-compose.yml` file in detached mode.
 
-#### 2. **Install Frontend Dependencies**
+#### 2. **Add OpenAI Key**
+   - Navigate to the `src` folder in your frontend directory:
+     ```bash
+     cd src
+     ```
+   - Open the `.env` file (create it if it doesn’t exist).
+   - Add your OpenAI key in the following format:
+     ```env
+     OPENAI_API_KEY=your-openai-api-key
+     ```
+   - Save the file.
+
+#### 3. **Install Frontend Dependencies**
    - Ensure you have [PNPM](https://pnpm.io/) installed.
    - Navigate to the frontend directory:
      ```bash
@@ -22,15 +36,17 @@ To run your application with the steps you provided, here's a clear and concise 
      pnpm i
      ```
 
-#### 3. **Run Frontend**
+#### 4. **Run Frontend**
    - Start the frontend development server:
      ```bash
      pnpm start
      ```
    - This will typically start the frontend on a development server, often accessible at `http://localhost:3000` or a similar port.
 
-#### 4. **Verify Application**
+#### 5. **Verify Application**
    - Check if both the backend and frontend are running correctly.
    - Open your browser and navigate to the frontend URL, or use a tool like Postman to test the backend API.
 
-If you encounter any issues during the process, let me know, and I can help troubleshoot!
+---
+
+Let me know if you need help with anything else!
