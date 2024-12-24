@@ -1,5 +1,4 @@
-Here's the updated guide with the additional step to add the OpenAI key:
-
+#AI Heroes Recipie project#
 ---
 
 ### Steps to Run the Application
